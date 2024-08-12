@@ -1,0 +1,94 @@
+/* debut de ma page apropos */
+
+.padding{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.displayflex{
+    display: flex;
+}
+.displayflexrow{
+    display: flex;
+    flex-flow: row wrap;
+}
+.width3colone{
+    width: 33%;
+    padding: 8px;
+
+}
+.width2colone{
+    width: 50%;
+}
+.fontsizeglobal{
+    font-size: 100%;
+}
+.width4image{
+    width: 25%;
+}
+.widthimage{
+    width: 25%;
+    padding: 10px;
+}
+.cleaboth{
+    clear: both;
+}
+.paddingimage{
+    width: 20%;
+    padding: 10px;
+    
+}
+.paddingtoph1{
+    padding-top: 150px;
+
+}
+.heigth5{
+    height: 400px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+/*version mobile de ma page apropos */
+
+@media screen and (max-width: 627px){
+    .displayflex{
+    display: initial;
+    }
+    .displayflexrow{
+    display: initial;
+    flex-flow: row wrap;
+    }
+    img{
+        width: 100%;
+    }
+    .width3colone{
+        width: 100%;
+        padding: 8px;
+    
+    }
+    .paddingimage{
+        display: none;
+        padding: 10px;
+        
+    }
+    .widthimage{
+        width: 100%;
+        padding: 10px;
+    }
+    .paddingtoph1{
+        padding-top: 50px;
+    
+    }
+    .displayflex{
+        display: initial;
+    }
+    .width2colone{
+        width: 100%;
+    }
+    .heigth5{
+        height: 400px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+}
+/*version mobile de ma page apropos */
+
+/* fin de ma page apropos */

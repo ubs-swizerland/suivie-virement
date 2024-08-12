@@ -1,0 +1,145 @@
+body{
+    font-size: 80%;
+    color: #222;
+}
+.formulaire{
+    margin-left: 150px;
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+    margin-right: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: -15px;
+    font-size: 150%;
+
+}
+.logo{
+    padding-left: 30px;
+    padding-top: 5px;
+    width: 12%;
+}
+nav > ul > li > a {
+    padding: 10px 20px;
+    color: #222;
+    font-size: 150%;
+}
+.paddingleft{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.boutonsuivi{
+    background-color: silver;
+    
+}
+.boutonsuivi:hover{
+    background-color: red;
+}
+p{
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+}
+.flext{
+    display: flex;
+}
+.width{
+    width: 50%;
+}
+h1{
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+h2{
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+h3{
+    padding-left: 10px;
+    color: #222;
+}
+.COULEUR{
+    text-transform: initial;
+    font-size: 120%;
+}
+.fontsizec{
+    font-size: 150%;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+article{
+    text-transform: uppercase;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.couleurtext{
+    font-weight: bold;
+}
+.progress-bar{
+    background-color: rgb(0, 126, 31);
+}
+.progress{
+    height: 25px;
+
+}
+.red{
+    color: red;
+}
+
+
+@media screen and (max-width: 627px){
+    .flext{
+        display: initial;
+    }
+  .width{
+    width: 100%;
+    }  
+    h3{
+        padding-left: 10px;
+        color: #222;
+        background-color: khaki;
+        font-size: 140%;
+    } 
+    article{
+        text-transform: uppercase;
+        text-transform: uppercase;
+        padding-left: 10px;
+        padding-bottom: 15px;
+    }
+    .paddingleft{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .logo{
+        padding-left: 30px;
+        padding-top: 5px;
+        width: 40%;
+    }
+    h1{
+        padding-top: 10px;
+        font-size: 200%;
+        margin-bottom: 10px;
+    }
+    .formulaire{
+        margin-left: 0px;
+        text-align: center;
+        background-color: rgb(226, 226, 226);
+        margin-right: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: -15px;
+        width: 100%;
+        font-size: 150%;
+    
+    }
+    .fontsizec{
+        font-size: 120%;
+        padding-bottom: 3px;
+        font-weight: bold;
+    }
+}
